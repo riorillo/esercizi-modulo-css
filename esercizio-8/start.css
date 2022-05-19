@@ -1,0 +1,31 @@
+
+/* solo le regole aggiunte al foglio di stile della traccia */
+
+body {
+    display: flex;
+  }
+  
+  #green {
+    flex-grow: 1;
+    order: 3;
+  }
+  
+  #orange {
+    flex-grow: 3;
+    order: 4;
+  }
+  
+  #yellow {
+    flex-grow: 1;
+    order: 1;
+  }
+  
+  #red {
+    flex-grow: 1;
+    order: 2;
+  }
+  
+  #blue {
+    flex-grow: 1;
+    order: 5;
+  }

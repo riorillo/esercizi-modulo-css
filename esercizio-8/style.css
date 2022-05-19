@@ -1,0 +1,54 @@
+
+/* foglio di stile completo */
+
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: flex;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+  flex-grow: 1;
+  order: 3;
+}
+
+#orange {
+  background-color: #ffc788;
+  flex-grow: 3;
+  order: 4;
+}
+
+#yellow {
+  background-color: #ffff92;
+  flex-grow: 1;
+  order: 1;
+}
+
+#red {
+  background-color: #ff919c;
+  flex-grow: 1;
+  order: 2;
+}
+
+#blue {
+  background-color: #98d2ff;
+  flex-grow: 1;
+  order: 5;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
